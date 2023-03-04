@@ -1,0 +1,32 @@
+Assignment4
+
+1. Compare two JSON objects without considering the order
+
+var obj1={name:"Person1",age:5};
+var obj2={age:5,name:"Person1"};
+
+let keyValues1=Object.keys(obj1)
+let keyValues2=Object.keys(obj2).join(",")
+let check=false
+
+for(let i=0;i<keyValues1.length;i++){
+if(keyValues2.includes(keyValues1[i])){
+	if(obj1[keyValues1[i]]===obj2[keyValues1[i]]){
+	check=true
+	}
+	else{
+	check=false
+	break;
+	}
+}
+else{
+check=false
+break;
+}
+}
+if(check)
+console.log("Both the objects are having same properties")
+else
+console.log("Both the objects are not having same properties")
+
+Task 4
