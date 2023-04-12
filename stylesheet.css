@@ -57,7 +57,7 @@ input[type=text] {
 	  border-radius: 10px;  
   }
   
-  #output{
+  #result{
 	  height:40px;
 	  text-align:right;
 	  background-color:#ecedef;
@@ -69,14 +69,14 @@ input[type=text] {
 	  margin:15px
   }
   
-  #submit {  
+  #equal {  
 	width:130px;
 	height:60px;
 	background-color:blue;
 	color:white
 }     
 
-#addition,#subtract,#divition,#multiplication,#dot{
+#add,#subtract,#divition,#multiplication,#dot{
 	color:blue;
 }
 
