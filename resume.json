@@ -1,0 +1,16 @@
+var resume = {
+'name' : 'Vaideeswari',
+'last name':'Thangavelu',
+'age':29,
+'dateofbirth':'01:05:1993',
+'address':{
+'no':'3/11',
+'street':'cross main road',
+'city':'chenai',
+'state':'Tamilnadu',
+'country':'India',
+},
+'education':'BE-CSE',
+'occupation':'Test Lead',
+'hobbies':['running','gardening','reading books'],
+}
