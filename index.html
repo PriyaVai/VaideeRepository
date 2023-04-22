@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survay form</title>
+<link rel="stylesheet" href="./stylesheet.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">    
+<svg id="definition" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="required" viewbox="0 0 128 128"><g><path d="M110.1,16.4L75.8,56.8l0.3,1l50.6-10.2v32.2l-50.9-8.9l-0.3,1l34.7,39.1l-28.3,16.5L63.7,78.2L63,78.5   l-18.5,49L17.2,111l34.1-39.8v-0.6l-50,9.2V47.6l49.3,9.9l0.3-0.6L17.2,16.7L45.5,0.5l17.8,48.7H64L82.1,0.5L110.1,16.4z"></path></g></symbol></defs></svg>
+</head>
+<body>
+<div class="container">
+<h2>Survey Form</h2>
+<div class="main">
+<form action="" id="form">
+<div class="flex-container">
+<label for="name">First Name</label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<input type="text" id="fname" name="name" placeholder="Enter your first name" required /><br>
+<label for="name">Last Name</label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<input type="text" id="lname" name="name" placeholder="Enter your last name" required /><br>
+<label for="email">Email</label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<input type="email" id="email" name="email" placeholder="Enter your email address" required /><br>
+<label for="rating" class="rating"><strong>Your Experience</strong></label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<span class="bi bi-star-fill orange-color"> </span>
+<span class="bi bi-star-fill orange-color"> </span>
+<span class="bi bi-star-fill orange-color"> </span>
+<span class="bi bi-star-fill orange-color"> </span>
+<span class="bi bi-star-fill orange-color"> </span><br><br>
+<label for="rating" class="rating">Overall. How would you rate your experience with us?</label><br><br>
+<label for="table"><strong>How satiesfied are you with</strong></label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<table class="table">
+<tr>
+<th></th>
+<th>Very Unsatiesfied</th>
+<th>Unsatiesfied</th>
+<th>Neutral</th>
+<th>Satiesfied</th>
+<th>Very Satiesfied</th>
+</tr>
+<tr>
+<td>Purchase</td>
+<td><input type="radio" name="rating" id="purchaseVUS"></td>
+<td><input type="radio" name="rating" id="purchaseUS"></td>
+<td><input type="radio" name="rating" id="purchaseN"></td>
+<td><input type="radio" name="rating" id="purchaseS"></td>
+<td><input type="radio" name="rating" id="purchaseVS"></td>
+</tr>
+<tr>
+<td>Service</td>
+<td><input type="radio" name="rating" id="serviceVUS"></td>
+<td><input type="radio" name="rating" id="serviceUS"></td>
+<td><input type="radio" name="rating" id="serviceN"></td>
+<td><input type="radio" name="rating" id="serviceS"></td>
+<td><input type="radio" name="rating" id="serviceVS"></td>
+</tr>
+<tr>
+<td>Company Overall</td>
+<td><input type="radio" name="rating" id="comVUS"></td>
+<td><input type="radio" name="rating" id="comUS"></td>
+<td><input type="radio" name="rating" id="comN"></td>
+<td><input type="radio" name="rating" id="comS"></td>
+<td><input type="radio" name="rating" id="comVS"></td>
+</tr>
+</table><br>
+<label for="table"><strong>How likely are you to</strong></label><svg class="icon" focusable="false"><use xlink:href="#required"></use></svg><br>
+<table class="table">
+<tr>
+<th></th>
+<th>Very Unlikely</th>
+<th>Unlikely</th>
+<th>Neutral</th>
+<th>Likely</th>
+<th>Very Likely</th>
+</tr>
+<tr>
+<td>Buy from us again</td>
+<td><input type="radio" name="rating" id="purchaseVUS"></td>
+<td><input type="radio" name="rating" id="purchaseUS"></td>
+<td><input type="radio" name="rating" id="purchaseN"></td>
+<td><input type="radio" name="rating" id="purchaseS"></td>
+<td><input type="radio" name="rating" id="purchaseVS"></td>
+</tr>
+<tr>
+<td>Recommend our product to others</td>
+<td><input type="radio" name="rating" id="serviceVUS"></td>
+<td><input type="radio" name="rating" id="serviceUS"></td>
+<td><input type="radio" name="rating" id="serviceN"></td>
+<td><input type="radio" name="rating" id="serviceS"></td>
+<td><input type="radio" name="rating" id="serviceVS"></td>
+</tr>
+<tr>
+<td>Recommend our company to others</td>
+<td><input type="radio" name="rating" id="comVUS"></td>
+<td><input type="radio" name="rating" id="comUS"></td>
+<td><input type="radio" name="rating" id="comN"></td>
+<td><input type="radio" name="rating" id="comS"></td>
+<td><input type="radio" name="rating" id="comVS"></td>
+</tr>
+</table><br>
+<label for="comments"><strong>Additional comments or Suggestions</strong></label><br>
+<textarea name="comments" rows="5" col="15" ></textarea><br>
+<button name="submit"><strong>Submit</strong></button>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
